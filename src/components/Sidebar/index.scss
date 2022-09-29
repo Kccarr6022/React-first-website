@@ -73,10 +73,22 @@
       }
     }
 
-    a.about-link {
+    a.projects-link {
         &:after {
-            content: 'ABOUT';
+            content: 'PROJECTS';
         }
     }
+
+    a.resume-link {
+      &:after {
+          content: 'RESUME';
+      }
+  }
+
+    a.about-link {
+      &:after {
+          content: 'ABOUT';
+      }
+  }
   }
 }
