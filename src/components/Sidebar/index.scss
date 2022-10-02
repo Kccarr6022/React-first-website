@@ -9,12 +9,12 @@
 
   .logo {
     display: block;
-    padding: 0px 0;
+    padding: 8px 0;
 
     img {
       display: block;
       margin: 8px auto;
-      width: 55px;
+      width: 24px;
       height: auto;
     }
   }
@@ -29,7 +29,7 @@
     width: 100%;
 
     a {
-      font-size: 22px;
+      font-size: 34px;
       color: #4d4d4e;
       display: block;
       line-height: 51px;
@@ -42,7 +42,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #c409ee;
 
         svg {
           opacity: 0;
@@ -74,21 +74,54 @@
     }
 
     a.projects-link {
-        &:after {
-            content: 'PROJECTS';
-        }
+      &:after {
+        content: 'PROJECTS';
+      }
     }
 
     a.resume-link {
       &:after {
-          content: 'RESUME';
+        content: 'RESUME';
       }
-  }
+    }
 
     a.about-link {
       &:after {
-          content: 'ABOUT';
+        content: 'ABOUT';
       }
+    }
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
+      }
+    }
+    a.active {
+      svg {
+        color: #c409ee;
+      }
+    }
   }
+  ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+
+        &:hover svg{
+          color: #c409ee;
+        }
+      }
+    }
   }
 }
