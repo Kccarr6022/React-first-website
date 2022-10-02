@@ -37,3 +37,62 @@
     animation: fadeIn 0.5s forwards;
     amimation-delay: 0.5s;
 }
+
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+
+        h1 {
+            font-size: 53px;
+            font-family: 'coolvetica';
+            color: #c409ee;
+            font-weight: 400;
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 40px;
+            left: 10px;
+
+            &::before {
+                content: '<h1>';
+                font-family: 'la belle aurore';
+                color: #c409ee;
+                font-size: 18px;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0.6;
+            }
+
+            &::after {
+                content: '</h1>';
+                font-family: 'la belle aurore';
+                color: #c409ee;
+                font-size: 18px;
+                line-height: 18px;
+                position: absolute;
+                left: -30px;
+                bottom: -20px;
+                margin-left: 20px;
+                animation: fadeIn 1s 1.7s backwards;
+                opacity: 0.6;
+            }
+
+        }
+
+        p {
+            font-style: 13px;
+            color: #fff;
+            font-family: sans-serif;
+            font-weight: 300;
+            min-width: fit-content;
+            animation: pulse;
+        }
+    }
+}
