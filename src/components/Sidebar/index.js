@@ -8,6 +8,7 @@ import {
   faProjectDiagram,
   faFile,
   faPhone,
+  faBlog
 } from '@fortawesome/free-solid-svg-icons' //import the icons
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -31,11 +32,14 @@ const Sidebar = () => (
       <NavLink exact="true" className="projects-link" activeclassname="active" to="/projects" >
         <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
       </NavLink>
-      <NavLink exact="true" className="about-link" activeclassname="active" to="/about">
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+      <NavLink exact="true" className="blog-link" activeclassname="active" to="/blog">
+        <FontAwesomeIcon icon={faBlog} color="#4d4d4e" />
       </NavLink>
       <NavLink exact="true" className="contact-link" activeclassname="active" to="/contact" >
         <FontAwesomeIcon icon={faPhone} color="#4d4d4e" />
+      </NavLink>
+      <NavLink exact="true" className="about-link" activeclassname="active" to="/about">
+        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </NavLink>
     </nav>
     <ul>

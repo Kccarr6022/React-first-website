@@ -84,15 +84,19 @@
         content: 'RESUME';
       }
     }
-
-    a.about-link {
+    a.blog-link {
       &:after {
-        content: 'ABOUT';
+        content: 'BLOG';
       }
     }
     a.contact-link {
       &:after {
         content: 'CONTACT';
+      }
+    }
+    a.about-link {
+      &:after {
+        content: 'ABOUT';
       }
     }
     a.active {
@@ -118,7 +122,7 @@
         font-size: 15px;
         line-height: 16px;
 
-        &:hover svg{
+        &:hover svg {
           color: #c409ee;
         }
       }
