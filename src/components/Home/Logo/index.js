@@ -3,18 +3,20 @@ import Portrait from '../../../assets/images/image.png'
 
 const Logo = () => {
   return (
-    <div className="logo">
-      <img src={Portrait} alt="portrait" />
+    <div className="logo-container">
+      <img className="solid-logo" src={Portrait} alt="logo" />
       <svg
-        width="100%"
-        height="100%"
-        viewBox="0 0 100 100"
-        version="1.1"
+        width="559pt"
+        height="559pt"
+        version="1.0"
+        viewBox="0 0 559.000000 559.000000"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g className="svg-container" transform="translate(0, 0)" fill="none">
-          <path d="M 0 0 L 100 0 L 100 100 L 0 100 Z" fill="#000000" />
-        </g>
+        <g
+          className="svg-container"
+          transform="translate(0.000000,0.000000) scale(0.100000,-0.100000)"
+          fill="none"
+        ></g>
       </svg>
     </div>
   )
