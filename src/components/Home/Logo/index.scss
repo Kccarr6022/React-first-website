@@ -3,6 +3,30 @@
   width: 75vw;
   height: 75vw;
   position: relative;
-  top: 50%;
-  right: -50%;
+  top: 10%;
+  right: -20%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  opacity: 0;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotate3d(0, 1, 0, 180deg) !important;
+  }
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    transform: rotate3d(0, 1, 0, 180deg) !important;
+  }
+  
 }
