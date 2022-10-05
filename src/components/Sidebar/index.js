@@ -19,49 +19,48 @@ const Sidebar = () => (
     </Link>
     <nav>
       <NavLink
-        exact="true"
-        className="home-link"
-        activeclassname="active"
-        to="/"
+        end="true"
+        activeClassName="active"
+        strict to="/"
       >
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        end="true"
         className="resume-link"
-        activeclassname="active"
+        activeClassName="active"
         to="/resume"
       >
         <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        end="true"
         className="projects-link"
-        activeclassname="active"
+        activeClassName="active"
         to="/projects"
       >
         <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        end="true"
         className="blog-link"
-        activeclassname="active"
+        activeClassName="active"
         to="/blog"
       >
         <FontAwesomeIcon icon={faBlog} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        end="true"
         className="contact-link"
-        activeclassname="active"
+        activeClassName="active"
         to="/contact"
       >
         <FontAwesomeIcon icon={faPhone} color="#4d4d4e" />
       </NavLink>
       <NavLink
-        exact="true"
+        end="true"
         className="about-link"
-        activeclassname="active"
+        activeClassName="active"
         to="/about"
       >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
